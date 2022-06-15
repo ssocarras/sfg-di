@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 /**
  * Created by jt on 12/26/19.
  */
-@Service
+// @Service  // commenting out to configure with a java configuration class
 public class ConstructorGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
